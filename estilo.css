@@ -1,0 +1,439 @@
+/* ............................................   */
+
+body {
+	background: #ff0000;
+	font-family: 'Hanson';
+	text-transform: uppercase;	
+    margin: 0;
+    top: 0;
+}
+
+.contenedor {
+    width: 100vw;
+    max-width: 1280px;
+    margin: auto;
+    align-content: center;
+    position: relative;
+}
+
+/* ............................................   */
+
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+li	{
+	list-style: none;
+}
+ 
+h1 {	
+    font-size: 40px;
+    top: 1vh;
+}
+
+ul {
+	display: flex;
+	font-size: 20px;
+}
+
+header ul li {
+	margin: 0 25px;
+
+}
+
+header ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+/* ............................................   */
+
+img.fondo {
+    margin-top: 49vh;
+    left: -3vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.branding {
+    position: relative;
+    top: 28vh;
+    left: -0.5vw;
+
+}
+
+.titular {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.titular h2 {
+    font-size: 8rem;
+    margin: 0px 0 -7vh -3vw;
+
+}
+
+.esfera-negra {
+    width: 70px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 73vw;
+    top: 11vw;
+}
+
+
+/* ............................................   */
+
+
+#soluciones {
+    top: 0vw;
+    height: 100vh;
+}
+
+#slogan {
+    position: relative;
+    top: 44vh;
+    left: 36vw;
+}
+
+#slogan p {
+    font-size: 2.8rem;
+    margin-top: -4.13rem;
+}
+
+img#esfera1 {
+    position: absolute;
+    top: -12vh;
+    left: -36vw;
+    width: 78%; 
+}
+
+img#esfera2 {
+    position: absolute;
+    top: 71vh;
+    left: 65vw;
+    width: 24%;
+}
+
+
+/* ............................................   */
+
+
+
+section#nosotros {
+    margin-top: 44vh;
+    top: 0vh;
+
+}
+
+.contenedor-letras h2 {
+    font-size: 5rem;
+}
+
+.letras {
+    width: 1280px;
+    position: absolute;
+    text-align: center;
+    margin: 0px -9px;
+}
+
+.contenedor-letras {
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+
+/* ...........................................     */
+
+
+.marquee1 {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+
+}
+
+.content1 {
+    font-size: 6rem;
+    margin: 0 0 -1vh 0;
+}
+
+.track1 {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee1 1s linear infinite;
+ }
+
+@keyframes marquee1 {
+  from { transform: translateX(-50vw); }
+  to { transform: translateX(-100vw); }
+}
+            
+/* ...........................................     */
+
+.marquee2 {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+    top: 2vh;
+}
+
+.content2 {
+    font-size: 5rem;
+}
+
+.track2 {
+    top: 2vh;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee2 16s linear infinite;
+}
+
+@keyframes marquee2 {
+  from { transform: translateX(-50vw); }
+  to { transform: translateX(-150vw); }
+}
+
+/* ...........................................     */
+
+.marquee3 {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    height: 11vh;
+}
+
+.track3 {
+    top: 5vh;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee3 8s linear infinite;
+}
+
+.content3 {
+    font-size: 4rem;
+}
+
+@keyframes marquee3 {
+  from { transform: translateX(50vw); }
+  to { transform: translateX(100vw); }
+}
+
+/* ...........................................     */
+
+.marquee4 {
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    height: 11vh;
+}
+
+.content4{
+    font-size: 2rem;
+}
+
+.track4 {
+    top: 4vh;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee4 32s linear infinite;
+}
+
+@keyframes marquee4 {
+  from { transform: translateX(-50vw); }
+  to { transform: translateX(-100vw); }
+}
+
+
+/* ...........................................     */
+
+.diseño {
+    height: 100vh;
+    position: relative;
+} 
+
+img {
+    position: absolute;
+    z-index: -1;
+    top: -126vh;
+    left: 31vw;
+}
+
+.diseño h2 {
+    top: 0vh;
+    left: 28vw;
+    font-size: 5rem;
+    position: absolute;
+}
+
+.diseño p {
+    position: absolute;
+    top: 71vh;
+    left: 7vw;
+    font-size: 2rem;
+}
+
+img.logo-cliente1 {
+    width: 18%;
+    position: absolute;
+    top: 61vh;
+    left: 38vw;
+
+}
+
+img.logo-cliente2 {
+    width: 18%;
+    position: absolute;
+    top: 61vh;
+    left: 62vw;
+}
+
+
+/* ...................SECCION MARQUEEE........................     */
+
+
+.galeria {
+    height: 100vh;
+    position: relative;
+    
+}
+
+.galeria-marquee {
+
+}
+
+
+
+
+
+   /* .................LETRERO MARQUEE ARRIBA.............................     */
+ /* 
+.letrero-marqueeizq {
+    top: 31vh;
+    position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    height: 10vh;
+
+}
+
+.letrero-marqueetrackizq {
+    font-size: 6rem;
+    margin: 0 0 -1vh 0;
+}
+
+.letrero-marqueecontentizq {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: letrero-marqueecontentizq 2s linear infinite;
+ }
+
+@keyframes letrero-marqueecontentizq {
+  from { transform: translateX(-50vw); }
+  to { transform: translateX(-100vw); }
+}
+ 
+  */
+
+   /* ..............  GALERIA MARQUEE FOTOS     ...................     */
+
+.marquee-body {
+    background-color: #ff0000;
+    color: #111    
+    height: 33vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.marquee {
+    width: 100vw;
+    height: 20vh;  
+    background-color: #111
+    color: tomato;
+    position: relative;
+   overflow: hidden; 
+}
+
+
+
+
+
+/* GRADIENT AL PPIO Y FINAL GALERIA */
+
+.marquee:before, .marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.marquee:before {
+    left: 0;
+    background: linear-gradient(to right, #ff0000 0%, transparent 100%);
+}
+
+.marquee:after {
+    right: 0;
+    background: linear-gradient(to left, #ff0000 0%, transparent 100%);
+}
+
+/* FINAL- GRADIENT AL PPIO Y FINAL GALERIA */
+
+
+
+
+.marquee-content {
+    list-style:5 none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 9s linear infinite;
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0vw); }
+    100% { transform: translateX(calc(-1*20vw*9)); }
+}
+
+
+/*   
+.marquee-content:hover {
+    animation-play-state: paused;
+}
+*/
+
+
+
+.marquee-content li {
+   /* border: 3px solid black;*/
+    width: 20vw;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    white-space: nowrap;
+
+}
